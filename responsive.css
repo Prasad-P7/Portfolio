@@ -1,0 +1,274 @@
+
+@media (max-width: 1024px) {
+   
+    .home {
+        grid-template-columns: 1fr;
+        padding: 120px 5% 0; 
+        height: auto;
+    }
+
+    .home-content {
+        max-width: 100%;
+        float: none;
+        right: 0;
+        text-align: center;
+    }
+
+    .home-image .home-img {
+        max-width: 400px;
+        margin: 20px auto;
+        float: none;
+        display: block;
+    }
+
+    /* About section adjustments */
+    .about {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 1rem;
+        padding: 20px 5%;
+    }
+
+    .about-img img {
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    /* Services adjustments */
+    .services-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .container, .container1 {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+
+    .radical-bars .radical-bar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+
+
+    /* Contact adjustments */
+    .contact {
+        grid-template-columns: 1fr;
+        padding-left: 10px;
+        margin-top: 100px;
+    }
+
+    .contact-text {
+        text-align: center;
+    }
+
+    .contact-text h2 span {
+        font-size: 70px;
+    }
+
+    .contact-form form input,
+    
+    .services-list img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+@media (max-width: 1024px) and (min-width: 500px) {
+    .services-list img {
+        width: 100% !important;  
+        height: auto;            
+        max-width: 100%;         
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 5%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar a {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .home {
+        padding-top: 140px; 
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .home-image .home-img {
+        max-width: 250px;
+    }
+
+    .about-text h2 {
+        font-size: 36px;
+    }
+
+    .about-text h4 {
+        font-size: 20px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .sub-title {
+        font-size: 36px;
+        padding-bottom: 40px;
+    }
+
+    .services-list div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-text h2 span {
+        font-size: 50px;
+    }
+
+    .contact-text h4,
+    .contact-text p {
+        font-size: 16px;
+    }
+
+    .contact-form form input,
+    .contact-form form textarea {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .home-content h1 {
+        font-size: 28px;
+    }
+
+    .home-content h3 {
+        font-size: 18px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+    }
+
+    .navbar a {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .home-image .home-img {
+        max-width: 180px;
+    }
+
+    .about-text h2 {
+        font-size: 28px;
+    }
+
+    .about-text h4 {
+        font-size: 16px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    .sub-title {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+
+    .contact-text h2 span {
+        font-size: 36px;
+    }
+    .contact-form form .send {
+         display: block;
+        margin: 20px auto; 
+    }
+}
+
+
+/* skills */
+
+
+@media screen and (max-width: 1190px) {
+    .skills-section {
+        justify-content: space-around; 
+        flex-wrap: wrap;
+    }
+    .progress-wrapper {
+        margin-left: 0; 
+        flex: 1;
+        max-width: 400px;
+    }
+    .container1 {
+        margin-left: 0; 
+        flex: 1;
+        max-width: 450px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .skills-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .progress-wrapper, .container1 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .radical-bar { width: 45%; margin-bottom: 20px; }
+}
+
+
+@media screen and (max-width: 768px) {
+    .radical-bar { width: 48%; margin-bottom: 20px; }
+}
+
+
+@media screen and (max-width: 480px) {
+    .radical-bar { width: 100%; margin-bottom: 25px; }
+    .progress-container { height: 25px; }
+    .progress-bar { line-height: 25px; font-size: 14px; }
+}
+@media screen and (max-width: 768px) {
+    .radical-bar { width: 100%; margin-bottom: 30px; }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    #skills {
+        scroll-margin-top: 210px; 
+    }
+    #projects {
+        scroll-margin-top: -20px;   
+    }
+}
+
+
+
+
